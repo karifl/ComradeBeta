@@ -1,0 +1,352 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+
+int main()
+
+{
+    int luku, luku1, luku2, luku3, luku4, luku5, luku6;
+    int pass;
+    
+    printf("***********K-261- Communication Network*************** \n\n");
+    
+    printf(" Connecting to the mainframe \n   - network online\n\n	Warning! Authorization required \n\n\n");
+    printf(" Insert password here below: \n\n>>"); /*Pyytää kokonaislukua*/
+    scanf(" %d", &pass); /*Ohjelma ottaa luvun vastaan*/
+    printf("                                          \n");
+    if(pass==261)            
+    {
+                             printf(" Password correct \n\n");
+                             }
+    else
+    {
+        printf(" Access denied! \n\n ");
+       
+        system("pause");
+        return 0;
+        }*/
+
+                   system("cls");
+                   printf("***********K-261- Communication Network*************** \n\n");
+		           printf(" Choose your side (1-3): \n\n 1= The Neo-nazies ");
+		           printf("                                    \n\n\n>>");
+    
+		           scanf("%d", &luku);
+		           printf("                    \n");
+    
+    		       switch (luku)
+                   {
+			              case 1:
+                               system("cls");
+                               printf("***********K-261- Communication Network*************** \n\n");
+				               printf("The globalization has doomed the purity of the human race! \n Welcome to the Warriors of the Arjan Union!   \n\n\n\n ");
+			                   printf("Choose target: \n\n 1=Silvio Berlusconi's party \n 2=Kremln\n\n>>");
+			                   scanf("%d", &luku1);
+				               switch (luku1)
+				               {
+					           case 1:
+                                    system("cls");
+                                    printf("***********K-261- Communication Network*************** \n\n");
+						            printf("*****************************************\n \t Target: Silvio Berlusconi's party \n \t Location: Rome, Italy \n******************************************\n\n");
+						            printf("Mr Berlusconi's recent screw ups has driven our Italian members frenzy, and they have decided to teach this bastard a lesson.\n");
+						            printf(" Our intelligence has chosen two targets for you to execute which might also give him something worth of thinking  \n\n 1= Armed strike to the party´s HQ \n\n 2= Attack against the goverment organs \n\n>>");
+				                    scanf("%d",&luku2);
+                                                  switch(luku2)
+						                            {
+							                          case 1:
+                                                         system("cls");
+                                                         printf("***********K-261- Communication Network*************** \n\n");
+							                             printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+							                             printf("Berlusconi has arranged a meeting with a couple high party members at tbe party's HQ in Rome. The meeting is probably for sharing the bribes given by the Mafia. \n");
+							                             printf("As suspected, there are some guard partols made from mafia recruits, which can be a serious challenge for our troops.");
+                                                         printf("We have found two alternative objectives which once completed will cause them to get on their feet:\n\n\n1= Bribe the mafia members, and ask for information about the building\n\n");
+                                                         printf("2 = eleminate the guards and attack inside \n\n>>");  
+                                                         scanf("%d", &luku3);
+                                                                     switch (luku3)
+                                                                     {
+                                                                       case 1:
+                                                                       system("cls");
+                                                                       printf("***********K-261- Communication Network*************** \n\n");
+                                                                       printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+                                                                       printf("The Mafia members seemed to be pleased with our generous offer. The information given was what we needed. \n\n");
+                                                                       printf("Since the house has been renovated there is an stealth and easy access to the meeting room where our targets have summonded.\n"); 
+                                                                       printf("This will give us an element of suprise for us to this attack.\n We seemed to have two options: \n\n");
+                                                                       printf("1= Send one of our members to assassinate the targets and pick up the money \n\n 2= Deliver a C4 in a case \n\n>>");
+                                                                       scanf("%d", &luku4);
+                                                                            switch (luku4)
+                                                                            {
+                                                                                   case 1:
+                                                                                   system("cls");
+                                                                                   printf("***********K-261- Communication Network*************** \n\n");
+                                                                                   printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+                                                                                   printf("Our member has intrudes in the building.... \n\n Rolls the silencer on his pistol... \n\n Makes his way way to the room.. \n");
+                                                                                   printf("\n\nEmpties the bullets from the magazine to Berlusconi and his partners.\n\n\n Cash money has been collected to our members. \n\n");
+                                                                                   printf("***************************************\n\n MISSION COMPLETE! \n\n GAME OVER \n\n******************************\n\n");
+                                                                                   system("pause");
+                                                                                   return 0;
+                                                                                   break;
+                                                                                    
+                                                                                   case 2:
+                                                                                   system("cls");
+                                                                                   printf("***********K-261- Communication Network*************** \n\n");
+                                                                                   printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+                                                                                   printf("The bomb is set to explode in 10 minutes. \n\n The case is closed and delivered in the room \n\n Berlusconi recieves an alarming phone call from one of our corrupted mafia members\n\n");
+                                                                                   printf("The room is evacuated and the money is lost \n\n************************************************* \n\n MISSION FAILED! \n\n GAME OVER\n\n**********************************************\n\n");
+                                                                                   system("pause");
+                                                                                   return 0;
+                                                                                   break;
+                                                                                   
+                                                                                   default:
+                                                                                   break;
+                                                                                   }
+                                                                            case 2:                   
+                                                                            system("cls");
+                                                                            printf("***********K-261- Communication Network*************** \n\n");
+                                                                            printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+                                                                            printf("Our troops prepare for the strike. The assassination of the guards is successful but we broke the silence.\nThe party members at the HQ are calling for backup ");
+                                                                            printf("The mafia will be here in 10 minutes, We don't have enough resources for fighting against the mafia reinforcements\n\n");
+                                                                            printf("Message received from the our members \"We can either try forcing our way inside the building or leave while we still have time retreat\"");
+                                                                            printf("\n\n1= \" We came here to teach them a lesson, fire at will!!\"\n\n2= \"Retreat, we will handle this later.\"\n\n>> ");
+                                                                            scanf("%d", &luku4);
+                                                                               switch (luku4)
+                                                                               {
+                                                                                 case 1:
+                                                                                 system("cls");
+                                                                                 printf("***********K-261- Communication Network*************** \n\n");
+                                                                                 printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+                                                                                 printf(" The remains of our troops turned against you.\n\n You hear gunfire and feel pain because the bullets hit you ripping your body\n\n");
+                                                                                 printf(" The last thing you see is cars approaching on your location\n\n********************************\n\n MISSION FAILED! GAME OVER!\n**************************\n");
+                                                                                 system("pause");
+                                                                                   return 0;
+                                                                                   break;                                                                         
+                                                                                 case 2:
+                                                                                 system("cls");
+                                                                                 printf("***********K-261- Communication Network*************** \n\n");
+                                                                                 printf("*****************************************\n Objective 1: Armed strike to the party's HQ \n\n******************************************\n\n");
+                                                                                 printf("The troops agree with you and our forces has been withdrown in seconds. \n\n Despite the failed mission, your forces are ready to serve you again.\n\n");
+                                                                                 printf("***********************\nGAME OVER\n*************************\n\n");
+                                                                                 system("pause");
+                                                                                   return 0;
+                                                                                   break;
+                                                                                  default:
+                                                                                  break;
+                                                                                  } 
+                                                                           break; 
+                                                                           default:
+                                                                           system("pause");
+                                                                           return 0;
+                                                                           break;
+                                                                          }
+                                                                          break;
+                                                                           default:
+                                                                           system("pause");
+                                                                           return 0;
+                                                                           break;
+                                                                           }
+                                                             
+                                                         case 2:
+                                                         system("cls");
+                                                         printf("***********K-261- Communication Network*************** \n\n");
+                                                         printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                         printf("The other alternative for getting Berlusconi's attention is cutting of his power on the goverment. We have decided to hande few of his members out from the business \n");
+                                                         printf("We have chosen two targets for excecution. \n\n1= Minister of Justice \n\n \n\n2=Minister of Treasury\n\n>>");
+                                                         scanf("%d",&luku4);
+                                                           switch (luku4)
+                                                                  {
+                                                                  case 1:
+                                                                  system("cls");
+                                                                  printf("***********K-261- Communication Network*************** \n\n");
+                                                                  printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                  printf("The Minister of Justice, like most of the Berlusconi's partners, has two common vices: Women and good food. So we shall leave this to you. During the week he usually goes to eat in a fancy restaurant where he orders a glass of red wine and a steak\n");
+                                                                  printf("On the weekends he loves to visit gentlemen clubs for little entertainment. Both of these happenings offer us a possiblity to liqvidate him \n\n");
+                                                                  printf("1= One of our members intrudes in the restaurant and pour poison in to his meal\n\n2= Bribe one of the club members to drug him \n\n>>");
+                                                                  scanf("%d",&luku5);
+                                                                  switch (luku5)
+                                                                  {
+                                                                         case 1:
+                                                                         system("cls");
+                                                                         printf("***********K-261- Communication Network*************** \n\n");
+                                                                         printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                         printf("Despite their VIP arrival, the local restaurant was lightly guarded , our agent slip easily undetected inside. \n ");
+                                                                         printf("Our agent just informed that the minister is not eating alone, there's some other persons also sitting, perhaps the minister is paranoid.. \n");
+                                                                         printf("Minister is ordering a large steak with red wine, and a slice of cake for dessert. Which one should we spike? \n\n");
+                                                                         printf("1= the steak \n 2= the wine \n 3= the dessert\n\n\n>>");
+                                                                         scanf("%d", &luku6); 
+                                                                                     switch (luku6)
+                                                                                     {           
+                                                                                     case 1:
+                                                                                     system("cls");
+                                                                                     printf("***********K-261- Communication Network*************** \n\n");
+                                                                                     printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                                     printf(" The agent slips the poison to the steak with the needle. The minister likes his steak medium raw so the poison must be strong.");
+                                                                                     printf(" The meal is preapared with a heist and been served to the minister.\n Unfortunately our suspicions were correct he had some tasters incase of poisoning");
+                                                                                     printf("To be sure of the steak he cuts a small piece of it and gives to his assistant\n\n");
+                                                                                     printf("Once the assistant falls from the chair chocking, the rest of the group escapes from the scene \n\n *******************\n MISSION FAILED!\n *********************");
+                                                                                     printf("******************\n GAME OVER \n******************************************\n\n");
+                                                                                     system("pause");
+                                                                                     return 0;
+                                                                                     break;
+                                                                   
+                                                                                     case 2:
+                                                                                     system("cls");
+                                                                                     printf("***********K-261- Communication Network*************** \n\n");
+                                                                                     printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                                     printf(" The agent mixes the poison in the red wine. The brand is minister's favourite so the hit shoud be a success.\n");
+                                                                                     printf("The meal is preapared with a heist and been served to the minister. Unfortunately our suspicions were correct he had some tasters incase of poisoning");
+                                                                                     printf("To be sure of the steak he cuts a small piece of it and gives to his assistant. Since there's nothing danger he begins to eat his lunch.\n");
+                                                                                     printf("When he is just about to taste his favourite brew, one of the guards takes to the glass from him and tastes the wine. \n");
+                                                                                     printf("Since the guards starts feel nauseous and begins to voimit blood the rest of the group escapes from the scene. \n\n *******************\n MISSION FAILED!\n *********************");
+                                                                                     printf("******************\n GAME OVER \n**************\n\n");                                                             
+                                                                                     system("pause");
+                                                                                     return 0;
+                                                                                     break;
+                                                                   
+                                                                                     case 3:
+                                                                                     system("cls");
+                                                                                     printf("***********K-261- Communication Network*************** \n\n");
+                                                                                     printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                                     printf("The dessert is properly prepared with the finest indgredients and is being set to a plate ready for served. \n Just before the waiter gets his hands on the plate");
+                                                                                     printf(" our agent has already spiked the delicious dish with poison. The waiter takes the plate to the minister once the main course has ended");
+                                                                                     printf("After the guards outrageous behaviour while trying to protect him from the danger, the minister decideds to enjoy this meal without anyone interferring to it.\n");
+                                                                                     printf("He cuts a small piece with a teaspoon and swallows it quickly. Despite all the cautiousness, he falls down chocking desperately in the ground\n\n");
+                                                                                     printf("*******************\n MISSION COMPLETE!\n *********************\n\n ********************\nGAME OVER\n*********************");
+                                                                                     system("pause");
+                                                                                     return 0;
+                                                                                     break;
+                                                                                     }
+                                                                                break;    
+                                                                                    
+                                                                                }      
+                                                         
+                                                                         case 2:
+                                                                         system("cls");
+                                                                         printf("***********K-261- Communication Network*************** \n\n");
+                                                                         printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                         printf("The club is famous about it's high class within the society, so infiltrating inside is useless. \n");
+                                                                         printf("Fortunately we found one of the staff members to do the job for us if we in exchange can help him with his agenda.");
+                                                                         printf("This person owes gambling debts to the mafia worth of 100 000 euros and increasing, which makes his life worth of risking for.\n");
+                                                                         printf("What should we do?\n\n 1= Pay his debts to the mafia but he can forget the tip. \n\n 2= Pay his debts to mafia but he would hear from us from now on \n\n\n>>");
+                                                                         scanf("%d", &luku5);
+                                                                              switch (luku5)
+                                                                              {
+                                                                               case 1:
+                                                                               system("cls");
+                                                                               printf("***********K-261- Communication Network*************** \n\n");
+                                                                               printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                               printf("The member first denies the offer, but after waging his options he decides to co-operate. Our agent gives him wrapped package full of powder which includes enough toxic to kill the target slowly but efficiently. \n");
+                                                                               printf("The minister orders a drink from the waiter. The bartender begins to mix the drink. When the drink is almost finished our ally drops the powder in the drink glass and mixes with a small amount of alcohol. \n"); 
+                                                                               printf("The drink is served and minister drinks it. After few hours of dancing the minister starts to shake and falls down with the sympthoms of epilepsy.\n\n");
+                                                                               printf("***********************************\n\n Mission Complete! \n\n GAME OVER \n\n ***********************************\n"); 
+                                                                               system("pause");
+                                                                               return 0;
+                                                                               break;
+                                                                               
+                                                                               case 2:
+                                                                               system("cls");
+                                                                               printf("***********K-261- Communication Network*************** \n\n");
+                                                                               printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                                               printf("The member denies the offer, and tolds us to hit the road. Our agent executes him immediately.\n");
+                                                                               printf(" Since there is no other way to get inside, we have to call of the strike.\n\n"); 
+                                                                               printf("***********************************\n\n Mission Failed! \n\n GAME OVER \n\n ***********************************\n"); 
+                                                                               system("pause");
+                                                                               return 0;
+                                                                               break;
+                                                                               
+                                                                               default:
+                                                                               printf("No such target");
+						                                                       system("pause");
+                                                                               return 0;
+                                                                               break;
+                                                                              }           
+                                                                         break;
+                                                                     default:
+                                                                     printf("No such target");
+						                                             system("pause");
+                                                                     return 0;
+                                                                     break;
+                                                                     }
+                                                                     break;
+                                    case 2:
+                                    system("cls");
+                                    printf("***********K-261- Communication Network*************** \n\n");
+                                    printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                    printf("The Minister of Treasury is mostly known with his spotless career, but he still has some secrets which we can utilize \n.");
+                                    printf("Our agents have found out he has been gambling in the local casino and seem to be addicted to drugs among others. This will give us a chance to assassinate him without interruption. \n");
+                                    printf("The situation has given us two options, we can either \n\n 1= challenge him to play a setup game with us, \n 2= overdose him with pure heroine \n\n>>"); 
+                                    scanf("%d",&luku5);
+                                          switch (luku5)
+                                           {
+                                             case 1:
+                                             system("cls");
+                                             printf("***********K-261- Communication Network*************** \n\n");
+                                             printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                             printf("One of our agents disquises himself as a business man and offers the minister a challenge. As a gambling man the minister naturally can't resist thrill of a new game");
+                                             printf("Which kind of game would you like to challenge him in? \n\n 1=Russian Roulette \n 2=Chop poker \n\n>>");
+                                              scanf("%d", &luku6);
+                                                     switch (luku6)
+                                                       {
+                                                            case 1:
+                                                            system("cls");
+                                                            printf("***********K-261- Communication Network*************** \n\n");
+                                                            printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                            printf("The minister is called in a private cabinet. The guns have been loaded , minister's gun has, of course, been loaded with few extra bullets, and the two gamblers sit down on comfortable chairs. \n");
+                                                            printf("The our agent trys his one first, *click*, no shot, the minister trys his with the thrill of excitement *click*, no shot either, he begins to smile wildly \n");
+                                                            printf("The second round goes also without a shot. The minister is sweating and laughing like a madman with the thrill. \n");
+                                                            printf("The third round starts, our agent clears it off without a shot, but once the minister trys his a bullet goes through his skull spilling the inside on the room. \n\n");
+                                                            printf("The waitors clean the room and our agent lefts to building..\n\n *********************************\n Mission Completed \n *******************************\n\n***************************\n\n *************\n GAME OVER! \n*************\n\n  ");
+                                                            system("pause");
+                                                            return 0;
+                                                            break;
+                                                         
+                                                            case 2:
+                                                            system("cls");
+                                                            printf("***********K-261- Communication Network*************** \n\n");
+                                                            printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                                            printf("The minister is called to a separate cabinet where our agent waits with a card dealer \n\n");
+                                                            printf("The rules are simple, 10 rounds, each round a loser looses a finger. \n\n");
+                                                            printf("The first round starts. \n Our agent changes three cards and the minister one, the game ends our agent having two pairs and the minister wons with three of kind\n\n *Agent loses a finger*\n\n"); 
+                                                            printf("The second round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The third round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The fourth round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The fifth round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The sixth round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The seventh round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The eighth round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The nineth round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("The tenth round starts. \n Our agent changes four cards and the minister three, the game ends our agent having full house and the minister loses with flush.\n\n *Minister loses a finger* \n\n");
+                                                            printf("");
+                                                            printf("The waitors clean the room and our agent lefts to building..\n\n *********************************\n Mission Completed \n *******************************\n\n***************************\n\n *************\n GAME OVER! \n*************\n\n  ");
+                                                            system("pause");
+                                                            break;
+                                                                                        
+                                                            default:
+                                                            system("pause");
+                                                            return 0;
+                                                            break;
+                                                      }
+                                                  break;
+                                                                                                                               
+                                               case 2:
+                                              system("cls");
+                                              printf("***********K-261- Communication Network*************** \n\n");
+                                              printf("*****************************************\n Objective 2: Attack against the goverment organs \n\n******************************************\n\n");
+                                              printf("");
+                                              break;
+                                                                        
+                                              default:
+                                               system("pause");
+                                               return 0;
+                                               break;
+                                               }                
+                                              break;          
+		                  default:
+			              printf(" Fatal function error! Connection terminated! \n\n ");
+        	              system("pause");
+		                  return 0;
+                          }
+                          
+system("pause"); // lopettaa ohjelman
+return 0;
+}
+               
